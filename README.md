@@ -11,29 +11,13 @@
 - 搜尋素材名稱、配方材料或關卡編號，支援三種語言交叉搜尋。
 - 用刷取／合成／銀行兌換／秘物匣子篩選素材；同一物品可有多種建議。
 - 點選配方中的材料直接跳轉；右側詳細資訊及搜尋欄可跟隨頁面捲動。
-- 右下角可回到頂端；點選頁首「關於網站」可連往作者 GitHub。
 - 手機版採單欄排版，支援介面與搜尋功能。
-
-## GitHub Pages 發布步驟
-
-1. 在 GitHub 新增一個公開 repository（例如 `reverse1999-materials`）。
-2. 將此 ZIP **解壓縮後的內容**上傳至 repository 根目錄（要讓 `index.html` 位於根目錄，不要多包一層資料夾）。
-3. 開啟 repository 的 **Settings → Pages → Build and deployment**，選擇 **Deploy from a branch**。
-4. 指定 `main` 分支與 `/ (root)` 資料夾，儲存。
-5. 等待 GitHub Pages 部署完成後，網站通常會位於 `https://k2210000.github.io/<repository-name>/`。
-
-此專案所有圖片都使用相對路徑，因此可部署在 repository 子路徑下。根目錄的 `.nojekyll` 避免 GitHub Pages 嘗試 Jekyll 處理。
-
-> **發布狀態：**這份 ZIP 為待上傳的網站程式碼，並未自動建立 GitHub repository、上傳或開啟 Pages。請先檢查公開素材的使用權限及標示方式。
 
 ## 資料與來源
 
-- 70 張素材 PNG：由網站整理者提供，位於 `assets/`，物品 ID 與檔名相互對應。
-- 簡體中文名稱：網站整理者提供的 `icon.txt`，原始參考灰機 Wiki 物品列表。
-- 繁體中文參考名稱：GameVika 的繁體道具資料；「齧咬盒」「木娑典」另經整理者依遊戲內字樣確認。
+- 簡體中文名稱：原始參考灰機 Wiki 物品列表。
 - 英文參考名稱：Gnomon 英文素材資料、GameVika 英文道具資料。
-- 取得建議與掉落關卡：由網站整理者提供。已知掉落地點不等於最佳效率關卡。
-- 合成配方：沿用先前整理的 38 組配方。
+- 取得建議與掉落關卡：參考[Bilibili](https://www.bilibili.com/video/BV1AERFBCEKQ/?share_source=copy_web&vd_source=4ec628f0c5ddb1a3e1d96440acbfe7ba)。
 
 參考連結：
 
@@ -42,7 +26,7 @@
 - [GameVika（英文）](https://gamevika.com/en/reverse1999/items)
 - [Gnomon](https://reverse1999-gnomon.pages.dev/materials)
 
-此網站為非官方粉絲工具，不代表遊戲開發者或發行商立場；遊戲中的名稱及素材圖片權利屬各自權利人。第三方的整理資料不代表已全部獨立對照遊戲客戶端。
+此網站為非官方工具，不代表遊戲開發者或發行商立場；遊戲中的名稱及素材圖片權利屬各自權利人。第三方的整理資料不代表已全部獨立對照遊戲客戶端。
 
 ## 專案結構
 
@@ -61,7 +45,4 @@ favicon.svg    網站小圖示
 
 ## 版本紀錄
 
-- **V7**：移除首頁的舊版核對聲明；新增右上角「關於網站」按鈕、可點擊空白處關閉的小視窗及作者的 GitHub 超連結（含 GitHub 圖示）；改善上架用網站標題、favicon、SEO 中繼資料及 Pages 部署說明。
-- **V6**：固定左側搜尋欄與右側素材詳細資訊；新增回到頂部；確認「齧咬盒」「木娑典」。
-- **V5**：70 張原始 ICON 與三語名稱對照資料。
-- **V4**：加入取得方式和掉落關卡。
+- **2026/11/26**：更新資訊
